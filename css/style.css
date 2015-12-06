@@ -228,7 +228,6 @@ body {
   font-size: 2.62rem; /*42px / 16  = 2.62*/
   color: #Fff;
   font-family: "titilliumweb-bold",sans-serif;
-/*  margin: 0rem 0rem 4.6rem 9.5rem;*/
   line-height: 3.35rem;
   margin:  0 5rem 6.5rem 5rem;
 }
@@ -248,15 +247,6 @@ body {
   border-bottom: solid 2px #c86a40;
 }
 
-
-.title_text {
-
-}
-
-.title_slog {
-
-
-}
 
 .meet_title {
     color: #000;
@@ -286,7 +276,6 @@ body {
     display: inline-block;
     width: 260px;
     vertical-align: top;
-    /*margin-left: 4rem;*/
 }
 
 .info__img {
@@ -379,19 +368,16 @@ body {
 .col1 { 
 	width: 24%;
   display: inline-block;
-	/*background: #AB4040; */
 }
 
 .col2 { 
 	width: 48%;
   display: inline-block;
-	/*background: #AB4040; */
 }
 
 
 .cuda__logo {
   max-width: 100%;
-    /*margin: 3.6rem 0rem 0rem -15.9rem;*/
 }
 
 
