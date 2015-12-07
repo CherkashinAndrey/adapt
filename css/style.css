@@ -83,6 +83,9 @@ h1 {
     color: #fff;
     text-align: center; 
     width: 62%;
+    background: transparent url("../img/line.png") no-repeat scroll 50% 100%;
+    margin-bottom: 1.25rem;
+    line-height: 5rem;
 }
 
 h2 {
@@ -175,6 +178,7 @@ body {
     right: 2px;
     position: absolute;
 }
+
 .menu {
   position: relative;
   float: right;
@@ -248,29 +252,15 @@ body {
 }
 
 
-.meet_title {
+.meet_title,  
+.gotSkills__title,  
+.meet__text,  
+.gotSkills__text,  
+.portfolio__title,  
+.portfolio__text  {
     color: #000;
 }
 
-.gotSkills__title {
-    color: #000;
-}
-
-.meet__text {
-  color: #000;
-}
-
-.gotSkills__text {
-    color: #000;
-}
-
-.portfolio__title {
-    color: #000;
-}
-
-.portfolio__text {
-    color: #000;
-}
 
 .team_group {
     display: inline-block;
@@ -344,6 +334,10 @@ body {
 }
 
 
+.info__name--portfolio:last-child {
+    margin-bottom: 20%;
+}
+
 .callback {
     margin: 0 auto;
 }
@@ -356,14 +350,9 @@ body {
   float: left;
 }
 
-.wrap_input {
-  display: block;
-}
-
 .callback_textarea {
 
 }
-
 
 .col1 { 
 	width: 24%;
@@ -393,52 +382,47 @@ body {
   display: inline;
 }
 
+
+
 .callback {
   width: 80%;
   text-align: center;
   margin-bottom: 5%;
 }
 
+.wrap_input {
+    display: block;
+    width: 80%;
+    margin: -1% auto;
+}
 
 .callback_form_name .callback_form_email{
-    margin-right: 1%;
+    /*margin-right: 1%;*/
 }
 
 .callback_form_textarea {
     background: #273A71 none repeat scroll 0% 0%;
     border: medium none;
-    padding: 0px 2rem;
+    /* padding: 0px 2rem; */
     font-size: 1.125rem;
     line-height: 3rem;
     border-radius: 3px;
     margin-bottom: 2%;
-    width: 76%;
-        color: #fff;
+    width: 78%;
+    color: #fff;
 }
 
 .callback_form {
     background: #273A71 none repeat scroll 0% 0%;
     border: medium none;
-    padding: 0px 2rem;
+    /* padding: 0px 2rem; */
     font-size: 1.125rem;
     line-height: 3rem;
     border-radius: 3px;
     margin-bottom: 2%;
-    width: 35%;
-        color: #fff;
-}
-
-.callback--name {
-
-}
-
-
-.callback--email {
-
-}
-
-.callback--textarea {
-
+    width: 48%;
+    color: #fff;
+    margin-left: 1%;
 }
 
 
@@ -472,13 +456,6 @@ body {
 
 
 
-
-
-
-
-
-
-
 @media screen and (max-width: 1023px) { 
   .content {
 
@@ -491,12 +468,29 @@ body {
     margin-bottom: 8%;
  }
 
+.info__img--aboutus {
+    display: inline;
+    padding-left: 2%;
+}
+
  .info__name--portfolio {
     margin-bottom: 12%;
 }
 
 .info__img--portfolio {
    margin-bottom: 6%;
+}
+
+.info__name--portfolio:last-child {
+    margin-bottom: 20%;
+}
+.info_text--art_about {
+    width: 55%;
+}
+
+.team_group--aboutus {
+    margin-left: -6rem;
+    width: 47%;
 }
 
 }
@@ -512,19 +506,37 @@ body {
     width: 100%
   }
 
-  .col2 {
 
-  }
+.menu {
+    position: absolute;
+    margin-top: 10px;
+    right: 0%;
+    background: #444;
+    top: 0%;
+}
 
-  .menu {
-    visibility: hidden ;
-    /*display: none;*/
-  }  
+.menu li {
+    float: none;
+}
 
-  .menu_img {
+.menu li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #Fff;
+    padding: 5px 20px 5px 20px;
+}
+
+.menu_img {
     visibility: visible;
-    /*display: "";*/
-  }
+}
+
+.menu {
+   visibility: hidden;
+}
+
+.menu_img:hover +.menu {
+   visibility: visible;
+}
 
   .info__img {
     margin-bottom: 6%;
@@ -546,15 +558,46 @@ body {
     margin-bottom: 12%;
 }
 
-
-  
+.info__img--aboutus {
+   margin-left: 8%;
 }
 
+.team_group--aboutus {
+    text-align: center;
+    max-width: 89%;
+    margin-bottom: 5%;
+}
+
+.info_text--art_about {
+    margin-bottom: 1%;
+    margin-left: 21%;
+    margin-right: 5%;
+    width: 64%;
+}
+
+.art_about {
+  margin-bottom: 50px;
+}
+
+} /* end media  767*/
+  
 
 @media screen and (max-width: 479px) { 
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 15%;
+}
 
 .info__img {
     margin-bottom: 3%;
+}
+
+.info_text {
+  max-width: 70%;
 }
 
 .info__name--portfolio {
@@ -566,19 +609,35 @@ body {
     margin-bottom: 20%;
 }
 
-h1 {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
+.slogan {
+  font-size: 2rem;
+    margin: 0 2rem 6.5rem 2rem;
 }
 
-h2 {
-    margin-bottom: 40px;
+.header {
+  margin-bottom: 35px;
 }
 
+.slogan {
+  margin: 0 2.5rem 6.5rem 2.5rem;
+}
+/*************************************************/
+.wrap_input {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.callback_form {
+    width: 99%;
+}
+
+.callback_form_textarea {
+    width: 78%;
+
 }
 
 
-
+}
 
 
 
