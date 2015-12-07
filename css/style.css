@@ -86,13 +86,14 @@ h1 {
     background: transparent url("../img/line.png") no-repeat scroll 50% 100%;
     margin-bottom: 1.25rem;
     line-height: 5rem;
+    text-transform: uppercase;
 }
 
 h2 {
     font-family: "titilliumweb-regular",sans-serif;
     line-height: 1.5rem;
     text-indent: 0.7rem;
-    font-size: 1.2rem;
+    font-size: 1.12rem;
     color: #fff; 
     text-align: center;
     margin: 0 auto; 
@@ -130,33 +131,38 @@ body {
 }
 
 .ServiceSprovide {
-  background: #17c2a4;
-  padding-top: 119px;
-  padding-bottom: 127px;
+    background: #17c2a4;
+    padding-top: 6.5%;
+    padding-bottom: 8.3%;
+    margin-left: 1%;
 }
 
 .MEET {
   background: #e7f1f8;
-  padding-top: 119px;
-  padding-bottom: 127px;
+    padding-top: 6.5%;
+    padding-bottom: 8.3%;
+    margin-left: 1%;
 }
 
 .gotSkills {
   background: #fff;
-  padding-top: 119px;
-  padding-bottom: 127px;
+    padding-top: 6.5%;
+    padding-bottom: 8.3%;
+    margin-left: 1%;
 }
 
 .portfolio {
    background: #ffdd99;
-    padding-top: 119px;
-  padding-bottom: 127px;
+    padding-top: 6.5%;
+    padding-bottom: 8.3%;
+    margin-left: 1%;
 }
 
 .aboutus {
   background: #d74680;
-  padding-top: 119px;
-  padding-bottom: 127px;
+    padding-top: 6.5%;
+    padding-bottom: 8.3%;
+    margin-left: 1%;
 }
 
 .touch {
@@ -171,18 +177,23 @@ body {
 
 .logo {
   float: left;
+    margin-left: 14.5%;
 }
 
-.menu_img {
-    visibility: hidden ;
+.menu_icon {
+    /*visibility: hidden ;*/
+    width: 50px;
+    height: 50px;
     right: 2px;
     position: absolute;
+    background: url('../img/menu.png') no-repeat;
 }
 
 .menu {
-  position: relative;
-  float: right;
-  margin-top: 10px;
+    position: relative;
+    float: right;
+    margin-top: 6px;
+    margin-right: 12%;
 }
 
 .menu li {
@@ -206,34 +217,34 @@ body {
 
 .tab {
   text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 4%;
 }
 
 .tab li{
     display: inline-block;
-    border-radius: 3px;
+    border-radius: 4px;
     background: #ebc985;
-    padding: 6px 10px;
-    margin: 0px 4px;
+    padding: 6px 24px;
+    margin: 0px 3px;
+    text-decoration: none;
+    font-size: 1.12rem;
+    color: #393939;
+    text-transform: uppercase;
+    font-family: "titilliumweb-regular";
 }
 
 .tab li:hover {
   background: #fff;
-}
-
-.tab li a{
-  text-decoration: none;
 
 }
-
 
 .slogan {
-  text-align: center;
-  font-size: 2.62rem; /*42px / 16  = 2.62*/
-  color: #Fff;
-  font-family: "titilliumweb-bold",sans-serif;
-  line-height: 3.35rem;
-  margin:  0 5rem 6.5rem 5rem;
+    text-align: center;
+    font-size: 2.62rem;
+    color: #Fff;
+    font-family: "titilliumweb-bold",sans-serif;
+    line-height: 3.35rem;
+    margin: 0 5rem 3% 5rem;
 }
 
 .btn {
@@ -244,27 +255,26 @@ body {
   font-family: "titilliumweb-regular",sans-serif;
   color: #fff;
   background: #eb7d4b;
-  padding: 15px 0px;
+  padding: 20px 0px;
   text-decoration: none;
-  font-size: 1.1rem;
-  border-radius: 3px;
-  border-bottom: solid 2px #c86a40;
+  font-size: 1.2rem;
+  /*font-size: 18px;*/
+  border-radius: 5px;
+  border-bottom: solid 4px #c86a40;
+  text-transform: uppercase;
+
 }
 
 
-.meet_title,  
-.gotSkills__title,  
-.meet__text,  
-.gotSkills__text,  
-.portfolio__title,  
-.portfolio__text  {
+  
+.meet__text {
     color: #000;
 }
 
 
 .team_group {
     display: inline-block;
-    width: 260px;
+    /*width: 260px;*/
     vertical-align: top;
 }
 
@@ -323,19 +333,78 @@ body {
 .meet--name {
     font-weight: bold;
     color: #000;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
-.meet--text {
-   color: #000;
+.meet__title,
+.meet__text,
+.meet--name,
+.meet--text,
+.gotSkills__title,
+.gotSkills__text,
+.info__img__name {
+   color: #3c4761;
+}
+
+.portfolio__title,
+.portfolio__text {
+  color: #393939;
+}
+
+.portfolio__text {
+  margin-bottom: 3%;
+}
+
+.btn--portfolio {
+  background: #17c2a4 ;
+  border-bottom: solid 4px #14a58c;
+}
+
+.info__img__name {
+  font-family: "titilliumweb-bold";
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8%;
+  text-transform: uppercase;
+}    
+
+.info_text--art_about {
+  font-family: "titilliumweb-italic";
+  font-size: 18px;
+}
+
+.info__pos--req {
+  margin-bottom: 4.2%; 
 }
 
 .info__img--name {
   font-weight: bold;
 }
 
+.info_text--aboutus {
+    font-family: "titilliumweb-bold";
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    text-align: left;
+    padding-left: 125px;
+}
+
+.info__pos--aboutus {
+color: #ffdd99;
+    font-family: "titilliumweb-regular";
+    font-size: 1.12rem;
+    line-height: 2rem;
+    text-align: left;
+    padding-left: 125px;
+
+}
 
 .info__name--portfolio:last-child {
-    margin-bottom: 20%;
+    margin-bottom: 9%;
 }
 
 .callback {
@@ -371,18 +440,30 @@ body {
 
 
 .info__img--aboutus {
-   display: inline;
+   float: left;
 }
 
 .team_group--aboutus {
-   margin-left: -6rem;
+   margin-left: 7.9rem;
 }
 
 .art_about {
-  display: inline;
+    /* display: inline; */
+    float: left;
+    width: 43%;
 }
 
+.info__name--portfolio {
+    margin-bottom: 12%;
+    font-size: "titilliumweb-regular";
+    font-family: 18px;
+    color: #393939 ;
+    text-transform: uppercase;
+}
 
+.info__img--portfolio {
+  margin-bottom: 30px;
+}
 
 .callback {
   width: 80%;
@@ -464,10 +545,6 @@ body {
     width: 48%;
   }
 
- .info__img__name {
-    margin-bottom: 8%;
- }
-
 .info__img--aboutus {
     display: inline;
     padding-left: 2%;
@@ -508,11 +585,12 @@ body {
 
 
 .menu {
+    /*visibility: hidden;*/
     position: absolute;
     margin-top: 10px;
-    right: 0%;
+    right: 0;
     background: #444;
-    top: 0%;
+    top: 100px;
 }
 
 .menu li {
@@ -526,17 +604,21 @@ body {
     padding: 5px 20px 5px 20px;
 }
 
-.menu_img {
-    visibility: visible;
+.menu_icon {
+    /*visibility: visible;*/
 }
 
 .menu {
-   visibility: hidden;
+  display: none;
 }
 
-.menu_img:hover +.menu {
-   visibility: visible;
+.is_open {
+   display: block;
 }
+
+/*.menu_icon:hover +.menu {
+   visibility: visible;
+}*/
 
   .info__img {
     margin-bottom: 6%;
@@ -550,16 +632,16 @@ body {
     margin-bottom: 5%;
  }
 
- .info__img__name {
-    margin-bottom: 8%;
- }
-
- .info__name--portfolio {
+ 
+.info__name--portfolio {
     margin-bottom: 12%;
+    font-size: "titilliumweb-regular";
+    /*font-family: 18px;*/
+    color: #393939 ;
 }
 
 .info__img--aboutus {
-   margin-left: 8%;
+   margin-left: 7.9%;
 }
 
 .team_group--aboutus {
@@ -606,12 +688,12 @@ h2 {
 }
 
 .info__name--portfolio:last-child {
-    margin-bottom: 20%;
+        margin-bottom: 10%;;
 }
 
 .slogan {
   font-size: 2rem;
-    margin: 0 2rem 6.5rem 2rem;
+    margin: 0 2rem 2% 2rem;
 }
 
 .header {
