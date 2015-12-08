@@ -103,7 +103,7 @@ h2 {
 }
 
 html {
-	font: 62.5%/1rem;
+	font: 62.5%;
 }
 
 body {
@@ -121,58 +121,60 @@ body {
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 0px;
 }
 
 .cuda {
   background: #87509c;
   padding-top: 60px;
-  padding-bottom: 145px;
+  /*padding-bottom: 145px;*/
+  min-height: 100vh;
 }
 
 .ServiceSprovide {
     background: #17c2a4;
     padding-top: 6.5%;
-    padding-bottom: 8.3%;
-    margin-left: 1%;
+    /*padding-bottom: 8.3%;*/
+    min-height: 100vh;
 }
 
 .MEET {
   background: #e7f1f8;
     padding-top: 6.5%;
-    padding-bottom: 8.3%;
-    margin-left: 1%;
+    /*padding-bottom: 8.3%;*/
+    min-height: 100vh;
 }
 
 .gotSkills {
   background: #fff;
     padding-top: 6.5%;
-    padding-bottom: 8.3%;
-    margin-left: 1%;
+    /*padding-bottom: 8.3%;*/
+    min-height: 100vh;
 }
 
 .portfolio {
    background: #ffdd99;
     padding-top: 6.5%;
-    padding-bottom: 8.3%;
-    margin-left: 1%;
+    /*padding-bottom: 8.3%;*/
+    min-height: 100vh;
 }
 
 .aboutus {
   background: #d74680;
     padding-top: 6.5%;
-    padding-bottom: 8.3%;
-    margin-left: 1%;
+    /*padding-bottom: 8.3%;*/
+    min-height: 100vh;
 }
 
 .touch {
   background: #3c5499;
   padding-top: 119px;
-  padding-bottom: 127px;
+  /*padding-bottom: 127px;*/
+  min-height: 100vh;
 }
 
 .header {
-  margin-bottom: 130px;
+margin-bottom: 16%;
 }
 
 .logo {
@@ -181,7 +183,7 @@ body {
 }
 
 .menu_icon {
-    /*visibility: hidden ;*/
+    visibility: hidden ;
     width: 50px;
     height: 50px;
     right: 2px;
@@ -249,7 +251,7 @@ body {
 
 .btn {
   display: block;
-  width: 296px;
+     width: 228px;
   margin: 0 auto;
   text-align: center;
   font-family: "titilliumweb-regular",sans-serif;
@@ -264,13 +266,10 @@ body {
   text-transform: uppercase;
 
 }
-
-
   
 .meet__text {
     color: #000;
 }
-
 
 .team_group {
     display: inline-block;
@@ -328,8 +327,6 @@ body {
     color: #30bae7; 
 }
 
-
-
 .meet--name {
     font-weight: bold;
     color: #000;
@@ -373,6 +370,7 @@ body {
 .info_text--art_about {
   font-family: "titilliumweb-italic";
   font-size: 18px;
+  max-width: 68%;
 }
 
 .info__pos--req {
@@ -537,13 +535,54 @@ color: #ffdd99;
 
 
 
+.socseti {
+  display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.socseti__item {
+    padding: 0px 22px;
+    position: relative;
+    display: inline;
+}
+
+.socseti__link {
+  text-decoration: none;
+}
+
+.socseti__link:before {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  width: 32px;
+  height: 32px;
+  content: ""
+}
+
+.fb:before {
+  background: url(../img/socseti.png) 0 0px no-repeat;
+}
+.tw:before {
+  background: url(../img/socseti.png) -40px 0px no-repeat;
+}
+.in:before {
+  background: url(../img/socseti.png) -80px 0px no-repeat;
+}
+.email:before {
+  background: url(../img/socseti.png) -120px 0px no-repeat;
+}
+
+/**********************************************************************/
+
 @media screen and (max-width: 1023px) { 
   .content {
 
   }
-  .col1 {
+
+.col1 {
     width: 48%;
-  }
+}
 
 .info__img--aboutus {
     display: inline;
@@ -561,20 +600,38 @@ color: #ffdd99;
 .info__name--portfolio:last-child {
     margin-bottom: 20%;
 }
+
 .info_text--art_about {
-    width: 55%;
+    font-family: "titilliumweb-italic";
+      font-size: 16px;
+    max-width: 100%;
 }
 
-.team_group--aboutus {
-    margin-left: -6rem;
-    width: 47%;
+.info_text--aboutus {
+  font-size: 1.3rem;
+}
+
+.info__pos--aboutus {
+font-size: 1.1rem;
+}
+.socseti {
+  margin-bottom: 17%;
+  width: 100%;
+}
+
+.menu {
+    margin-right: 6%;
 }
 
 }
 
 
 @media screen and (max-width: 767px) { 
-    
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  line-height: 2.5rem;
+}
   .col1 {
     width: 100%;
   }
@@ -583,25 +640,32 @@ color: #ffdd99;
     width: 100%
   }
 
+.menu_icon {
+  visibility: visible;
+}
 
 .menu {
-    /*visibility: hidden;*/
-    position: absolute;
-    margin-top: 10px;
-    right: 0;
-    background: #444;
-    top: 100px;
+    /* visibility: hidden; */
+    /* position: absolute; */
+    /* margin-top: 10px; */
+    /* right: 20%; */
+    /* background: #444; */
+    display: block;
+    /* width: 100%; */
+    top: 56px;
+    text-align: center;
+    /* display: inline-block; */
 }
 
 .menu li {
-    float: none;
+    text-align: center;
 }
 
 .menu li a {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #Fff;
-    padding: 5px 20px 5px 20px;
+    padding: 0px 9px 0px 9px;
 }
 
 .menu_icon {
@@ -625,7 +689,7 @@ color: #ffdd99;
 }
 
   .info_text {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
 
  .info__img__img {
@@ -634,36 +698,60 @@ color: #ffdd99;
 
  
 .info__name--portfolio {
-    margin-bottom: 12%;
     font-size: "titilliumweb-regular";
-    /*font-family: 18px;*/
     color: #393939 ;
+}
+.info__name--portfolio:last-child {
+  margin-bottom: 12%;
 }
 
 .info__img--aboutus {
-   margin-left: 7.9%;
+    margin-left: 34.9%;
+}
+
+.info_text--art_about {
+     margin-bottom: 5%; 
+    margin-left: 11%;
+    margin-right: 5%;
+    width: 100%;
+    padding: 0;
+    display: inline-block;
+}
+.info_text--aboutus {
+      font-size: 1.2rem;
+    margin-left: -39%;
 }
 
 .team_group--aboutus {
     text-align: center;
     max-width: 89%;
     margin-bottom: 5%;
+    margin-left: 26%;
 }
 
-.info_text--art_about {
-    margin-bottom: 1%;
-    margin-left: 21%;
-    margin-right: 5%;
-    width: 64%;
+.info__pos--aboutus {
+     margin-left: -40%;
 }
 
 .art_about {
   margin-bottom: 50px;
 }
 
+.socseti {
+  margin-bottom: 10%;
+  width: 100%;
+}
+
+
+.callback_form { 
+    width: 97%;
+}
+
+
+
 } /* end media  767*/
   
-
+/*******************************************************************/
 @media screen and (max-width: 479px) { 
 h1 {
   font-size: 1.5rem;
@@ -679,7 +767,7 @@ h2 {
 }
 
 .info_text {
-  max-width: 70%;
+  max-width: 88%;
 }
 
 .info__name--portfolio {
@@ -715,16 +803,59 @@ h2 {
 
 .callback_form_textarea {
     width: 78%;
-
 }
 
 
+.info__img--aboutus {
+}
+.info__img {
+  margin-bottom: 3%;
 }
 
+.info_text--art_about {
+     margin-bottom: 5%; 
+    display: inline-block;
+    margin: 0 1rem;
+}
 
+.team_group--aboutus {
+    text-align: center;
+    max-width: 100%;
+    margin-bottom: 5%;
+    margin-left: 1rem;
+}
 
+.info_text--aboutus {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+.info__pos--aboutus {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
 
+.art_about {
+  width: 100%;
+}
 
+.menu {
+  margin-bottom: 30px;
+}
+
+.menu li {
+  padding: 0 1px;
+}
+
+}
+
+@media screen and (max-width: 380px) { 
+  .btn {
+  width :65%;
+}
+}
 
 
 
