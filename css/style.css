@@ -104,6 +104,7 @@ h2 {
 
 html {
 	font: 62.5%;
+  /*font-size: 18px;*/
 }
 
 body {
@@ -122,13 +123,22 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 0px;
+  /*display: table;*/
+
 }
 
 .cuda {
   background: #87509c;
   padding-top: 60px;
-  /*padding-bottom: 145px;*/
   min-height: 100vh;
+  display: table;
+  height: 100%;
+  width: 100%
+}
+
+.tabl {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .ServiceSprovide {
@@ -136,13 +146,19 @@ body {
     padding-top: 6.5%;
     /*padding-bottom: 8.3%;*/
     min-height: 100vh;
+    display: table;
+    height: 100%;
+    width: 100%;
 }
 
-.MEET {
-  background: #e7f1f8;
+.meet {
+    background: #e7f1f8;
     padding-top: 6.5%;
     /*padding-bottom: 8.3%;*/
     min-height: 100vh;
+    display: table;
+    height: 100%;
+    width: 100%;
 }
 
 .gotSkills {
@@ -150,13 +166,19 @@ body {
     padding-top: 6.5%;
     /*padding-bottom: 8.3%;*/
     min-height: 100vh;
+  display: table;
+  height: 100%;
+  width: 100%;
 }
 
 .portfolio {
    background: #ffdd99;
     padding-top: 6.5%;
-    /*padding-bottom: 8.3%;*/
+    padding-bottom: 8.3%;
     min-height: 100vh;
+  display: table;
+  height: 100%;
+  width: 100%;
 }
 
 .aboutus {
@@ -164,6 +186,9 @@ body {
     padding-top: 6.5%;
     /*padding-bottom: 8.3%;*/
     min-height: 100vh;
+  display: table;
+  height: 100%;
+  width: 100%;
 }
 
 .touch {
@@ -171,6 +196,9 @@ body {
   padding-top: 119px;
   /*padding-bottom: 127px;*/
   min-height: 100vh;
+  display: table;
+  height: 100%;
+  width: 100%;
 }
 
 .header {
@@ -277,6 +305,12 @@ margin-bottom: 16%;
     vertical-align: top;
 }
 
+
+.team_group--aboutus {
+   margin-left: 7.9rem;
+}
+
+
 .info__img {
     max-width: 100%; 
     height: auto;
@@ -359,6 +393,19 @@ margin-bottom: 16%;
   border-bottom: solid 4px #14a58c;
 }
 
+
+.info__img--aboutus {
+   float: left;
+}
+
+.art_about {
+    /* display: inline; */
+    float: left;
+    width: 43%;
+    margin-bottom: 45px;
+
+}
+
 .info__img__name {
   font-family: "titilliumweb-bold";
   font-size: 24px;
@@ -373,14 +420,6 @@ margin-bottom: 16%;
   max-width: 68%;
 }
 
-.info__pos--req {
-  margin-bottom: 4.2%; 
-}
-
-.info__img--name {
-  font-weight: bold;
-}
-
 .info_text--aboutus {
     font-family: "titilliumweb-bold";
     font-size: 1.5rem;
@@ -392,7 +431,7 @@ margin-bottom: 16%;
 }
 
 .info__pos--aboutus {
-color: #ffdd99;
+    color: #ffdd99;
     font-family: "titilliumweb-regular";
     font-size: 1.12rem;
     line-height: 2rem;
@@ -400,6 +439,16 @@ color: #ffdd99;
     padding-left: 125px;
 
 }
+
+
+.info__pos--req {
+  margin-bottom: 4.2%; 
+}
+
+.info__img--name {
+  font-weight: bold;
+}
+
 
 .info__name--portfolio:last-child {
     margin-bottom: 9%;
@@ -437,19 +486,11 @@ color: #ffdd99;
 }
 
 
-.info__img--aboutus {
-   float: left;
-}
 
-.team_group--aboutus {
-   margin-left: 7.9rem;
-}
 
-.art_about {
-    /* display: inline; */
-    float: left;
-    width: 43%;
-}
+
+
+
 
 .info__name--portfolio {
     margin-bottom: 12%;
