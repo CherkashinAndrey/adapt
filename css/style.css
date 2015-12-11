@@ -123,6 +123,7 @@ body {
   margin: 0 auto;
   padding: 0 0px;
   display: table;
+  width: 100%;
 }
 
 .cuda {
@@ -613,9 +614,6 @@ margin-bottom: 16%;
 /**********************************************************************/
 
 @media screen and (max-width: 1023px) { 
-  .content {
-
-  }
 
 .col1 {
     width: 48%;
@@ -658,6 +656,7 @@ font-size: 1.1rem;
 
 .menu {
     margin-right: 6%;
+
 }
 
 }
@@ -689,7 +688,9 @@ h1 {
     /* background: #444; */
     display: block;
     /* width: 100%; */
-    top: 56px;
+    top: 0px;
+    
+    margin-bottom: 10px;
     text-align: center;
     /* display: inline-block; */
 }
