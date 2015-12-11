@@ -97,7 +97,7 @@ h2 {
     color: #fff; 
     text-align: center;
     margin: 0 auto; 
-    margin-bottom: 80px; 
+    /*margin-bottom: 80px; */
     /*width: 57%;;*/
 
 }
@@ -134,7 +134,19 @@ body {
     height: 100vh;
 }
 
+.hlop {
+    text-align: center;
+}
 
+.meet__title,
+.meet__text,
+.meet--name,
+.meet--text,
+.gotSkills__title,
+.gotSkills__text,
+.info__img__name {
+   color: #3c4761;
+}
 
 /************************************************************************************
 
@@ -221,8 +233,9 @@ body {
 
 .ServiceSprovide {
     background: #17c2a4;
-    padding-top: 6.5%;
-    padding-bottom: 8.3%;
+    /*padding-top: 6.5%;*/
+    padding-top: 80px;
+    /*padding-bottom: 8.3%;*/
     min-height: 100vh;
     /*display: table;*/
     height: 100%;
@@ -231,12 +244,55 @@ body {
 
 
 
+.team_group {
+    /*display: inline-block;*/
+    vertical-align: top;
+}
+
+.team_group--aboutus {
+   /*margin-left: 7.9rem;*/
+}
+
+
+.info__img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 13%;
+}
+
+.info__title {
+    font-family: "titilliumweb-bold",sans-serif;
+    text-align: center;
+    line-height: 1.5rem;
+    text-indent: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 1.4rem;
+}
+
+.info_text {
+    font-family: "titilliumweb-light",sans-serif;
+    text-align: center;
+    line-height: 1.5rem;
+    text-indent: 1rem;
+    font-size: 1rem;
+    color: #fff;  
+    max-width: 70%;
+    margin: 0 auto 1rem;
+
+}
 
 
 
+/*****************************************************************************
 
+                            ! 3 BLOK 
 
-
+/*******************************************************************************/
 
 .meet {
     background: #e7f1f8;
@@ -247,6 +303,30 @@ body {
     height: 100%;
     width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .gotSkills {
   background: #fff;
@@ -342,38 +422,6 @@ body {
 
 
 
-.info__img {
-    max-width: 100%; 
-    height: auto;
-    display: block;
-    margin: 0px auto;
-    margin-bottom: 13%;
-}
-
-.info__title {
-    font-family: "titilliumweb-bold",sans-serif;
-    text-align: center;
-    line-height: 1.5rem;
-    text-indent: 1rem;
-    font-size: 1.5rem;
-    color: #fff;
-    max-width: 60%;
-    margin: 0 auto;
-    margin-bottom: 1.4rem;
-}
-
-.info_text {
-    font-family: "titilliumweb-light",sans-serif;
-    text-align: center;
-    line-height: 1.5rem;
-    text-indent: 1rem;
-    font-size: 1rem;
-    color: #fff;  
-    max-width: 70%;
-    margin: 0 auto 1rem;
-
-}
-
 .info__name {
     font-family: "titilliumweb-light",sans-serif;
     text-align: center;
@@ -400,15 +448,8 @@ body {
     margin-bottom: 10px;
 }
 
-.meet__title,
-.meet__text,
-.meet--name,
-.meet--text,
-.gotSkills__title,
-.gotSkills__text,
-.info__img__name {
-   color: #3c4761;
-}
+
+
 
 .portfolio__title,
 .portfolio__text {
@@ -445,14 +486,7 @@ body {
 
 }
 
-.team_group {
-    /*display: inline-block;*/
-    vertical-align: top;
-}
 
-.team_group--aboutus {
-   /*margin-left: 7.9rem;*/
-}
 
   
 
