@@ -139,6 +139,35 @@ body {
     margin-bottom: 80px;
 }
 
+.btn {
+  display: block;
+     width: 228px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "titilliumweb-regular",sans-serif;
+  color: #fff;
+  background: #eb7d4b;
+  padding: 20px 0px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  /*font-size: 18px;*/
+  border-radius: 5px;
+  border-bottom: solid 4px #c86a40;
+  text-transform: uppercase;
+
+}
+
+
+.col1 { 
+  width: 24%;
+  display: inline-block;
+}
+
+.col2 { 
+  width: 48%;
+  display: inline-block;
+}
+
 
 
 /************************************************************************************
@@ -277,8 +306,6 @@ body {
 
 }
 
-
-
 /*****************************************************************************
 
                             ! 3 BLOK 
@@ -287,7 +314,7 @@ body {
 
 .meet {
     background: #e7f1f8;
-    padding-top: 6.5%;
+    /*padding-top: 6.5%;*/
     /*padding-bottom: 8.3%;*/
     min-height: 100vh;
     /*display: table;*/
@@ -304,13 +331,13 @@ body {
 }
 
 .info__pos--req {
-  margin-bottom: 4.2%; 
+  margin-bottom:22px; 
 }
 
 
 .socseti {
-  display: inline-block;
-    width: 100%;
+    display: inline-block;
+    width: 150px;
     text-align: center;
     height: 50px;
 }
@@ -366,6 +393,23 @@ body {
 }
 
 
+.info__name {
+    font-family: "titilliumweb-light",sans-serif;
+    text-align: center;
+    /*line-height: 1.5rem;*/
+    /*text-indent: 1rem;*/
+    font-size: 1rem;
+    color: #000; 
+}
+
+.info__img__name {
+  font-family: "titilliumweb-bold";
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8%;
+  text-transform: uppercase;
+}  
+
 
 
 
@@ -382,7 +426,7 @@ body {
 ********************************************************************************/
 
 .portfolio {
-   background: #ffdd99;
+  background: #ffdd99;
     /*padding-top: 6.5%;*/
   /*padding-bottom: 8.3%;*/
   min-height: 100vh;
@@ -392,10 +436,58 @@ body {
 }
 
 
+.portfolio__title,
+.portfolio__text {
+  color: #393939;
+}
 
+.portfolio__text {
+  margin-bottom: 3%;
+}
 
+.btn--portfolio {
+  background: #17c2a4 ;
+  border-bottom: solid 4px #14a58c;
+}
 
+.info__pos {
+    font-family: "titilliumweb-light",sans-serif;
+    text-align: center;
+    line-height: 1.5rem;
+    /*text-indent: 1rem;*/
+    font-size: 1rem;
+    color: #30bae7; 
+}
 
+.tab {
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.tab li{
+    display: inline-block;
+    border-radius: 4px;
+    background: #ebc985;
+    padding: 6px 24px;
+    margin: 0px 3px;
+    text-decoration: none;
+    font-size: 1.12rem;
+    color: #393939;
+    text-transform: uppercase;
+    font-family: "titilliumweb-regular";
+}
+
+.tab li:hover {
+  background: #fff;
+}
+
+.info__name--portfolio:last-child {
+    margin-bottom: 9%;
+}
+
+.meet__text {
+    color: #000;
+}
 
 
 
@@ -414,6 +506,44 @@ body {
   height: 100%;
   width: 100%;
 }
+
+.info__img--aboutus {
+   float: left;
+}
+
+.art_about {
+     display: inline; 
+    /*float: left;*/
+    /*width: 43%;*/
+    margin-bottom: 45px;
+
+}
+  
+.info_text--art_about {
+  font-family: "titilliumweb-italic";
+  font-size: 18px;
+  /*max-width: 68%;*/
+}
+
+.info_text--aboutus {
+    font-family: "titilliumweb-bold";
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    /*display: block;*/
+    /*text-align: left;*/
+    /*padding-left: 125px;*/
+}
+
+.info__pos--aboutus {
+    color: #ffdd99;
+    font-family: "titilliumweb-regular";
+    font-size: 1.12rem;
+    /*line-height: 2rem;*/
+    /*text-align: left;*/
+    /*padding-left: 125px;*/
+}
+
 
 
 
@@ -444,154 +574,59 @@ body {
 
 
 
+/*****************************************************************
+              foooter
 
+****************************************************************/
 
-.tab {
+.footer {
+  padding: 3% 0px;
+  background: #344B8E none repeat scroll 0% 0%;
+  color: #FFF;
+  border-top: 1px solid #5D6CA3;
+}
+
+.nav {
   text-align: center;
-  margin-bottom: 4%;
+  margin: 0px auto;
 }
 
-.tab li{
-    display: inline-block;
-    border-radius: 4px;
-    background: #ebc985;
-    padding: 6px 24px;
-    margin: 0px 3px;
-    text-decoration: none;
-    font-size: 1.12rem;
-    color: #393939;
-    text-transform: uppercase;
-    font-family: "titilliumweb-regular";
+.nav li {
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-
-.tab li:hover {
-  background: #fff;
-
-}
-
-
-.btn {
-  display: block;
-     width: 228px;
-  margin: 0 auto;
-  text-align: center;
-  font-family: "titilliumweb-regular",sans-serif;
-  color: #fff;
-  background: #eb7d4b;
-  padding: 20px 0px;
+.nav li a {
   text-decoration: none;
-  font-size: 1.2rem;
-  /*font-size: 18px;*/
-  border-radius: 5px;
-  border-bottom: solid 4px #c86a40;
-  text-transform: uppercase;
-
+  color: #FFF;
+    padding: 7% 32%;
 }
-  
-.meet__text {
-    color: #000;
+
+.nav li a:hover {
+  color: #555;
 }
 
 
 
 
-.info__name {
-    font-family: "titilliumweb-light",sans-serif;
-    text-align: center;
-    line-height: 1.5rem;
-    /*text-indent: 1rem;*/
-    font-size: 1rem;
-    color: #000; 
-}
 
-.info__pos {
-    font-family: "titilliumweb-light",sans-serif;
-    text-align: center;
-    line-height: 1.5rem;
-    /*text-indent: 1rem;*/
-    font-size: 1rem;
-    color: #30bae7; 
-}
+/******************************************************************************************
+                MEDIA 
+
+********************************************************************************************/
 
 
 
 
-.portfolio__title,
-.portfolio__text {
-  color: #393939;
-}
 
-.portfolio__text {
-  margin-bottom: 3%;
-}
 
-.btn--portfolio {
-  background: #17c2a4 ;
-  border-bottom: solid 4px #14a58c;
-}
-.info__img__name {
-  font-family: "titilliumweb-bold";
-  font-size: 24px;
+
+/*.info__img--name {
   font-weight: bold;
-  margin-bottom: 8%;
-  text-transform: uppercase;
-}  
+}*/
 
 
-
-.info__img--aboutus {
-   float: left;
-}
-
-.art_about {
-     display: inline; 
-    /*float: left;*/
-    /*width: 43%;*/
-    margin-bottom: 45px;
-
-}
-
-
-
-  
-
-.info_text--art_about {
-  font-family: "titilliumweb-italic";
-  font-size: 18px;
-  /*max-width: 68%;*/
-}
-
-.info_text--aboutus {
-    font-family: "titilliumweb-bold";
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: #fff;
-    /*display: block;*/
-    /*text-align: left;*/
-    /*padding-left: 125px;*/
-}
-
-.info__pos--aboutus {
-    color: #ffdd99;
-    font-family: "titilliumweb-regular";
-    font-size: 1.12rem;
-    /*line-height: 2rem;*/
-    /*text-align: left;*/
-    /*padding-left: 125px;*/
-
-}
-
-
-
-.info__img--name {
-  font-weight: bold;
-}
-
-
-.info__name--portfolio:last-child {
-    margin-bottom: 9%;
-}
 
 .callback {
     margin: 0 auto;
@@ -603,16 +638,6 @@ body {
 
 .callback_email {
   float: left;
-}
-
-.col1 { 
-	width: 24%;
-  display: inline-block;
-}
-
-.col2 { 
-	width: 48%;
-  display: inline-block;
 }
 
 .cuda__logo {
@@ -673,33 +698,6 @@ body {
 }
 
 
-.footer {
-  padding: 3% 0px;
-  background: #344B8E none repeat scroll 0% 0%;
-  color: #FFF;
-  border-top: 1px solid #5D6CA3;
-}
-
-.nav {
-  text-align: center;
-  margin: 0px auto;
-}
-
-.nav li {
-  display: inline-block;
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.nav li a {
-  text-decoration: none;
-  color: #FFF;
-    padding: 7% 32%;
-}
-
-.nav li a:hover {
-  color: #555;
-}
 
 
 .meet__title,
