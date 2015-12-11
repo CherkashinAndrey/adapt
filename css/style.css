@@ -337,13 +337,13 @@ body {
 
 .socseti {
     display: inline-block;
-    width: 150px;
+    width: 100%;
     text-align: center;
     height: 50px;
 }
 
 .socseti__item {
-    padding: 0px 22px;
+    padding: 0px 20px;
     position: relative;
     display: inline;
 }
@@ -427,14 +427,17 @@ body {
 
 .portfolio {
   background: #ffdd99;
-    /*padding-top: 6.5%;*/
-  /*padding-bottom: 8.3%;*/
+    padding-top: 6.5%;
+  padding-bottom: 8.3%;
   min-height: 100vh;
   /*display: table;*/
   height: 100%;
   width: 100%;
 }
 
+.hlops {
+
+}
 
 .portfolio__title,
 .portfolio__text {
@@ -448,6 +451,7 @@ body {
 .btn--portfolio {
   background: #17c2a4 ;
   border-bottom: solid 4px #14a58c;
+  padding: 15px 20px;
 }
 
 .info__pos {
