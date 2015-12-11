@@ -98,7 +98,7 @@ h2 {
     text-align: center;
     margin: 0 auto; 
     margin-bottom: 80px; 
-    width: 57%;;
+    /*width: 57%;;*/
 
 }
 
@@ -118,20 +118,19 @@ body {
 	display: table;
 }
 
-
 .wrapper {
+  width: 1440px;
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 0px;
-  /*display: table;*/
-
+  display: table;
 }
 
 .cuda {
   background: #87509c;
   padding-top: 60px;
   min-height: 100vh;
-  display: table;
+  /*display: table;*/
   height: 100%;
   width: 100%
 }
@@ -139,64 +138,67 @@ body {
 .tabl {
     display: table-cell;
     vertical-align: middle;
+    text-align: center;
+    min-height: 600px;
+    height: 100vh;
 }
 
 .ServiceSprovide {
     background: #17c2a4;
     padding-top: 6.5%;
-    /*padding-bottom: 8.3%;*/
+    padding-bottom: 8.3%;
     min-height: 100vh;
-    display: table;
+    /*display: table;*/
     height: 100%;
     width: 100%;
 }
 
 .meet {
     background: #e7f1f8;
-    padding-top: 6.5%;
+    /*padding-top: 6.5%;*/
     /*padding-bottom: 8.3%;*/
     min-height: 100vh;
-    display: table;
+    /*display: table;*/
     height: 100%;
     width: 100%;
 }
 
 .gotSkills {
   background: #fff;
-    padding-top: 6.5%;
+    /*padding-top: 6.5%;*/
     /*padding-bottom: 8.3%;*/
-    min-height: 100vh;
-  display: table;
+  min-height: 100vh;
+  /*display: table;*/
   height: 100%;
   width: 100%;
 }
 
 .portfolio {
    background: #ffdd99;
-    padding-top: 6.5%;
-    padding-bottom: 8.3%;
-    min-height: 100vh;
-  display: table;
+    /*padding-top: 6.5%;*/
+  /*padding-bottom: 8.3%;*/
+  min-height: 100vh;
+  /*display: table;*/
   height: 100%;
   width: 100%;
 }
 
 .aboutus {
   background: #d74680;
-    padding-top: 6.5%;
+    /*padding-top: 6.5%;*/
     /*padding-bottom: 8.3%;*/
     min-height: 100vh;
-  display: table;
+  /*display: table;*/
   height: 100%;
   width: 100%;
 }
 
 .touch {
   background: #3c5499;
-  padding-top: 119px;
+  /*padding-top: 119px;*/
   /*padding-bottom: 127px;*/
   min-height: 100vh;
-  display: table;
+  /*display: table;*/
   height: 100%;
   width: 100%;
 }
@@ -207,7 +209,7 @@ margin-bottom: 16%;
 
 .logo {
   float: left;
-    margin-left: 14.5%;
+  margin-left: 14.5%;
 }
 
 .menu_icon {
@@ -247,7 +249,7 @@ margin-bottom: 16%;
 
 .tab {
   text-align: center;
-    margin-bottom: 4%;
+  margin-bottom: 4%;
 }
 
 .tab li{
@@ -262,6 +264,10 @@ margin-bottom: 16%;
     text-transform: uppercase;
     font-family: "titilliumweb-regular";
 }
+.header_top {
+  display: inline-block;
+  width: 100%;
+}
 
 .tab li:hover {
   background: #fff;
@@ -271,10 +277,11 @@ margin-bottom: 16%;
 .slogan {
     text-align: center;
     font-size: 2.62rem;
+    display: inline-block;
     color: #Fff;
     font-family: "titilliumweb-bold",sans-serif;
     line-height: 3.35rem;
-    margin: 0 5rem 3% 5rem;
+    margin: 0 0 3% 0;
 }
 
 .btn {
@@ -299,16 +306,7 @@ margin-bottom: 16%;
     color: #000;
 }
 
-.team_group {
-    display: inline-block;
-    /*width: 260px;*/
-    vertical-align: top;
-}
 
-
-.team_group--aboutus {
-   margin-left: 7.9rem;
-}
 
 
 .info__img {
@@ -392,6 +390,14 @@ margin-bottom: 16%;
   background: #17c2a4 ;
   border-bottom: solid 4px #14a58c;
 }
+.info__img__name {
+  font-family: "titilliumweb-bold";
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8%;
+  text-transform: uppercase;
+}  
+
 
 
 .info__img--aboutus {
@@ -399,25 +405,28 @@ margin-bottom: 16%;
 }
 
 .art_about {
-    /* display: inline; */
-    float: left;
-    width: 43%;
+     display: inline; 
+    /*float: left;*/
+    /*width: 43%;*/
     margin-bottom: 45px;
 
 }
 
-.info__img__name {
-  font-family: "titilliumweb-bold";
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 8%;
-  text-transform: uppercase;
-}    
+.team_group {
+    /*display: inline-block;*/
+    vertical-align: top;
+}
+
+.team_group--aboutus {
+   /*margin-left: 7.9rem;*/
+}
+
+  
 
 .info_text--art_about {
   font-family: "titilliumweb-italic";
   font-size: 18px;
-  max-width: 68%;
+  /*max-width: 68%;*/
 }
 
 .info_text--aboutus {
@@ -425,18 +434,18 @@ margin-bottom: 16%;
     font-size: 1.5rem;
     text-transform: uppercase;
     color: #fff;
-    display: block;
-    text-align: left;
-    padding-left: 125px;
+    /*display: block;*/
+    /*text-align: left;*/
+    /*padding-left: 125px;*/
 }
 
 .info__pos--aboutus {
     color: #ffdd99;
     font-family: "titilliumweb-regular";
     font-size: 1.12rem;
-    line-height: 2rem;
-    text-align: left;
-    padding-left: 125px;
+    /*line-height: 2rem;*/
+    /*text-align: left;*/
+    /*padding-left: 125px;*/
 
 }
 
@@ -466,10 +475,6 @@ margin-bottom: 16%;
   float: left;
 }
 
-.callback_textarea {
-
-}
-
 .col1 { 
 	width: 24%;
   display: inline-block;
@@ -480,17 +485,9 @@ margin-bottom: 16%;
   display: inline-block;
 }
 
-
 .cuda__logo {
   max-width: 100%;
 }
-
-
-
-
-
-
-
 
 .info__name--portfolio {
     margin-bottom: 12%;
@@ -505,7 +502,7 @@ margin-bottom: 16%;
 }
 
 .callback {
-  width: 80%;
+  /*width: 80%;*/
   text-align: center;
   margin-bottom: 5%;
 }
@@ -575,11 +572,11 @@ margin-bottom: 16%;
 }
 
 
-
 .socseti {
   display: inline-block;
     width: 100%;
     text-align: center;
+    height: 50px;
 }
 
 .socseti__item {
@@ -627,7 +624,7 @@ margin-bottom: 16%;
 
 .info__img--aboutus {
     display: inline;
-    padding-left: 2%;
+    /*padding-left: 2%;*/
 }
 
  .info__name--portfolio {
@@ -747,31 +744,32 @@ h1 {
 }
 
 .info__img--aboutus {
-    margin-left: 34.9%;
+    /*margin-left: 34.9%;*/
+        float: none;
 }
 
 .info_text--art_about {
      margin-bottom: 5%; 
-    margin-left: 11%;
-    margin-right: 5%;
-    width: 100%;
+    /*margin-left: 11%;*/
+    /*margin-right: 5%;*/
+    width: 87%;
     padding: 0;
     display: inline-block;
 }
 .info_text--aboutus {
       font-size: 1.2rem;
-    margin-left: -39%;
+    /*margin-left: -39%;*/
 }
 
 .team_group--aboutus {
     text-align: center;
-    max-width: 89%;
+    /*max-width: 89%;*/
     margin-bottom: 5%;
-    margin-left: 26%;
+    /*margin-left: 26%;*/
 }
 
 .info__pos--aboutus {
-     margin-left: -40%;
+     /*margin-left: -40%;*/
 }
 
 .art_about {
@@ -847,8 +845,6 @@ h2 {
 }
 
 
-.info__img--aboutus {
-}
 .info__img {
   margin-bottom: 3%;
 }
