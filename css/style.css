@@ -92,7 +92,7 @@ h1 {
 h2 {
     font-family: "titilliumweb-regular",sans-serif;
     line-height: 1.5rem;
-    text-indent: 0.7rem;
+    /*text-indent: 0.7rem;*/
     font-size: 1.12rem;
     color: #fff; 
     text-align: center;
@@ -140,20 +140,21 @@ body {
 }
 
 .btn {
-  display: block;
-     width: 228px;
-  margin: 0 auto;
-  text-align: center;
-  font-family: "titilliumweb-regular",sans-serif;
-  color: #fff;
-  background: #eb7d4b;
-  padding: 20px 0px;
-  text-decoration: none;
-  font-size: 1.2rem;
-  /*font-size: 18px;*/
-  border-radius: 5px;
-  border-bottom: solid 4px #c86a40;
-  text-transform: uppercase;
+    display: block;
+    width: 228px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "titilliumweb-regular",sans-serif;
+    color: #fff;
+    background: #eb7d4b;
+    padding: 20px 0px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    /*font-size: 18px;*/
+    border-radius: 5px;
+    border-bottom: solid 4px #c86a40;
+    text-transform: uppercase;
+    border: 0;
 
 }
 
@@ -165,6 +166,11 @@ body {
 
 .col2 { 
   width: 48%;
+  display: inline-block;
+}
+
+.col3 { 
+  width: 72%;
   display: inline-block;
 }
 
@@ -190,6 +196,9 @@ body {
   /*box-sizing: border-box;*/
 }
 
+.cuda__logo {
+  max-width: 100%;
+}
 
 .logo {
   float: left;
@@ -242,6 +251,13 @@ body {
     right: 2px;
     position: absolute;
     background: url('../img/menu.png') no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+    .slogan {
+      padding-bottom: 50px;
+    }
+
 }
 
 
@@ -306,6 +322,35 @@ body {
 
 }
 
+@media screen and (max-width: 1024px) {
+    .ServiceSprovide {
+      padding-top: 70px;
+      padding-bottom:60px; 
+    }
+    .team_group {
+    margin-bottom: 80px;
+    }
+    .info__img {
+      margin-bottom: 8%;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .hlop {
+      margin-bottom: 40px;
+    }
+
+    .team_group {
+    margin-bottom: 40px;
+    }
+
+    .info__img__name {
+      margin-bottom: 2%;
+    }
+}
+
+
 /*****************************************************************************
 
                             ! 3 BLOK 
@@ -343,7 +388,7 @@ body {
 }
 
 .socseti__item {
-    padding: 0px 20px;
+    padding: 0px 22px;
     position: relative;
     display: inline;
 }
@@ -411,7 +456,11 @@ body {
 }  
 
 
-
+@media screen and (max-width: 767px) {
+    .info__img__name {
+      margin-bottom: 2%;
+    }
+}
 
 
 
@@ -435,8 +484,8 @@ body {
   width: 100%;
 }
 
-.hlops {
-
+.info__img--portfolio {
+  margin-bottom: 30px;
 }
 
 .portfolio__title,
@@ -462,6 +511,15 @@ body {
     font-size: 1rem;
     color: #30bae7; 
 }
+
+.info__name--portfolio {
+    margin-bottom: 12%;
+    font-size: "titilliumweb-regular";
+    font-family: 18px;
+    color: #393939 ;
+    text-transform: uppercase;
+}
+
 
 .tab {
   text-align: center;
@@ -495,6 +553,10 @@ body {
 
 
 
+
+
+
+
 /*******************************************************************************
 
                     !6 BLOK
@@ -511,22 +573,31 @@ body {
   width: 100%;
 }
 
-.info__img--aboutus {
-   float: left;
+.art_about_img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.aboutus__img {
+  display: inline;
 }
 
 .art_about {
-     display: inline; 
-    /*float: left;*/
-    /*width: 43%;*/
-    margin-bottom: 45px;
+  text-align: left;
+  margin-bottom: 140px;
+}
 
+.art_about_info {
+    display: inline-block;
+    width: 70%;
 }
   
 .info_text--art_about {
-  font-family: "titilliumweb-italic";
-  font-size: 18px;
-  /*max-width: 68%;*/
+    font-family: "titilliumweb-italic";
+    font-size: 18px;
+    text-align: left;
+    padding: 0 40px 30px 40px;
 }
 
 .info_text--aboutus {
@@ -534,18 +605,36 @@ body {
     font-size: 1.5rem;
     text-transform: uppercase;
     color: #fff;
-    /*display: block;*/
-    /*text-align: left;*/
-    /*padding-left: 125px;*/
+    text-align: left;
+    padding: 0 40px;
 }
 
 .info__pos--aboutus {
     color: #ffdd99;
     font-family: "titilliumweb-regular";
     font-size: 1.12rem;
-    /*line-height: 2rem;*/
-    /*text-align: left;*/
-    /*padding-left: 125px;*/
+    text-align: left;
+    padding: 0 40px;
+}
+
+
+
+@media screen and (max-width: 332px) { 
+    .art_about_info {
+        display: block;
+        margin: 0  auto;
+    }
+    .info_text--art_about {
+      text-align: center;
+      margin-bottom: 20px;
+      width:100%;
+    }
+
+    .art_about_img {
+      display: block;
+      margin: 0 auto;
+    }
+
 }
 
 
@@ -564,14 +653,80 @@ body {
   /*display: table;*/
   height: 100%;
   width: 100%;
+
+
 }
 
 
+.wrap_input {
+  margin-bottom: 20px;
+}
+
+.form_textarea {
+
+    background: #273A71 none repeat scroll 0% 0%;
+    border: medium none;
+    font-size: 1.125rem;
+    line-height: 3rem;
+    width: 100%;
+    color: #fff;
+    box-sizing: border-box;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 60px;
+      font-size: 18px;
+  font-family: "titilliumweb-light",sans-serif;
+}
+
+.form__input {
+    background: #273A71 none repeat scroll 0% 0%;
+    border: medium none;
+    font-size: 1.125rem;
+    line-height: 3rem;
+    border-radius: 3px;
+    width: 44%;
+    color: #fff;
+    padding-left: 2%;
+    padding-right: 2%; 
+      font-size: 18px;
+  font-family: "titilliumweb-light",sans-serif;
+  font-weight: re
+}
+
+
+.form__input::-webkit-input-placeholder {color:#fff;}
+.form__input::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+.form__input:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+.form__input:-ms-input-placeholder      {color:#fff;}
+
+.form_textarea::-webkit-input-placeholder {color:#fff;}
+.form_textarea::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+.form_textarea:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+.form_textarea:-ms-input-placeholder      {color:#fff;}
 
 
 
+.btn_form {
+  background: #30bae7;
+  border-bottom: solid 4px #299ec5 ;
+}
 
+.left {
+  float: left;
+}
 
+.right {
+  float: right;
+}
+
+.callback_form_name:first-child {
+  /*margin-left: -30px;*/
+}
+
+.callback {
+    width: 80%;
+    margin: 0 auto;
+}
 
 
 
@@ -614,96 +769,6 @@ body {
 
 
 
-
-/******************************************************************************************
-                MEDIA 
-
-********************************************************************************************/
-
-
-
-
-
-
-
-/*.info__img--name {
-  font-weight: bold;
-}*/
-
-
-
-.callback {
-    margin: 0 auto;
-}
-
-.callback_name {
-  float: left;
-}
-
-.callback_email {
-  float: left;
-}
-
-.cuda__logo {
-  max-width: 100%;
-}
-
-.info__name--portfolio {
-    margin-bottom: 12%;
-    font-size: "titilliumweb-regular";
-    font-family: 18px;
-    color: #393939 ;
-    text-transform: uppercase;
-}
-
-.info__img--portfolio {
-  margin-bottom: 30px;
-}
-
-.callback {
-  /*width: 80%;*/
-  text-align: center;
-  margin-bottom: 5%;
-}
-
-.wrap_input {
-    display: block;
-    width: 80%;
-    margin: -1% auto;
-}
-
-.callback_form_name .callback_form_email{
-    /*margin-right: 1%;*/
-}
-
-.callback_form_textarea {
-    background: #273A71 none repeat scroll 0% 0%;
-    border: medium none;
-    /* padding: 0px 2rem; */
-    font-size: 1.125rem;
-    line-height: 3rem;
-    border-radius: 3px;
-    margin-bottom: 2%;
-    width: 78%;
-    color: #fff;
-}
-
-.callback_form {
-    background: #273A71 none repeat scroll 0% 0%;
-    border: medium none;
-    /* padding: 0px 2rem; */
-    font-size: 1.125rem;
-    line-height: 3rem;
-    border-radius: 3px;
-    margin-bottom: 2%;
-    width: 48%;
-    color: #fff;
-    margin-left: 1%;
-}
-
-
-
-
 .meet__title,
 .meet__text,
 .meet--name,
@@ -715,6 +780,27 @@ body {
 }
 
 
+/******************************************************************************************
+                MEDIA   1024
+
+********************************************************************************************/
+
+/*.info__img--name {
+  font-weight: bold;
+}*/
+
+/*
+.wrap_input {
+    display: block;
+    width: 80%;
+    margin: -1% auto;
+}
+*/
+
+
+
+
+
 
 /**********************************************************************/
 
@@ -723,6 +809,9 @@ body {
 .col1 {
     width: 48%;
 }
+.col3 {
+    width: 60%;
+}
 
 .info__img--aboutus {
     display: inline;
@@ -730,7 +819,7 @@ body {
 }
 
  .info__name--portfolio {
-    margin-bottom: 12%;
+    /*margin-bottom: 12%;*/
 }
 
 .info__img--portfolio {
@@ -738,7 +827,7 @@ body {
 }
 
 .info__name--portfolio:last-child {
-    margin-bottom: 20%;
+    /*margin-bottom: 20%;*/
 }
 
 .info_text--art_about {
@@ -755,7 +844,7 @@ body {
 font-size: 1.1rem;
 }
 .socseti {
-  margin-bottom: 17%;
+  /*margin-bottom: 17%;*/
   width: 100%;
 }
 
@@ -766,6 +855,12 @@ font-size: 1.1rem;
 
 }
 
+
+/************************************************************************************************************
+
+                                   MEDIa                 768
+
+*************************************************************************************************************/
 
 @media screen and (max-width: 767px) { 
 h1 {
@@ -778,7 +873,11 @@ h1 {
   }
 
   .col2 {
-    width: 100%
+    width: 100%;
+  }
+
+  .col3 {
+    width: 100%;
   }
 
 .menu_icon {
@@ -786,33 +885,25 @@ h1 {
 }
 
 .menu {
-    /* visibility: hidden; */
-    /* position: absolute; */
-    /* margin-top: 10px; */
-    /* right: 20%; */
-    /* background: #444; */
-    display: block;
-    /* width: 100%; */
-    top: 0px;
-    
-    margin-bottom: 10px;
-    text-align: center;
-    /* display: inline-block; */
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  text-align: center;
 }
 
 .menu li {
     text-align: center;
+    float: none;
+    display: inline;
+    text-align: center;
 }
 
 .menu li a {
-    text-decoration: none;
+    /*text-decoration: none;*/
     font-size: 1.2rem;
-    color: #Fff;
+    background: #643a79;
     padding: 0px 9px 0px 9px;
-}
-
-.menu_icon {
-    /*visibility: visible;*/
+    border-radius: 10px;
 }
 
 .menu {
@@ -823,19 +914,15 @@ h1 {
    display: block;
 }
 
-/*.menu_icon:hover +.menu {
-   visibility: visible;
-}*/
-
-  .info__img {
-    margin-bottom: 6%;
+.info__img {
+    margin-bottom: 4%;
 }
 
-  .info_text {
+.info_text {
     margin-bottom: 1rem;
   }
 
- .info__img__img {
+.info__img__img {
     margin-bottom: 5%;
  }
 
@@ -845,57 +932,54 @@ h1 {
     color: #393939 ;
 }
 .info__name--portfolio:last-child {
-  margin-bottom: 12%;
+  margin-bottom: 4%;
 }
 
 .info__img--aboutus {
-    /*margin-left: 34.9%;*/
-        float: none;
+    float: none;
 }
 
 .info_text--art_about {
-     margin-bottom: 5%; 
-    /*margin-left: 11%;*/
-    /*margin-right: 5%;*/
     width: 87%;
     padding: 0;
     display: inline-block;
+    padding-left: 40px;
+
 }
 .info_text--aboutus {
       font-size: 1.2rem;
-    /*margin-left: -39%;*/
 }
 
 .team_group--aboutus {
     text-align: center;
-    /*max-width: 89%;*/
     margin-bottom: 5%;
-    /*margin-left: 26%;*/
-}
-
-.info__pos--aboutus {
-     /*margin-left: -40%;*/
 }
 
 .art_about {
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .socseti {
-  margin-bottom: 10%;
-  width: 100%;
+    margin-bottom: 3%;
+    width: 100%;
 }
 
 
-.callback_form { 
-    width: 97%;
+.form__input { 
+    width: 96%;
+    margin-bottom: 20px;
 }
 
 
 
 } /* end media  767*/
   
-/*******************************************************************/
+/*************************************************************************************************************
+
+                                              @media  478
+
+***************************************************************************************************************/
 @media screen and (max-width: 479px) { 
 h1 {
   font-size: 1.5rem;
@@ -935,14 +1019,14 @@ h2 {
 .slogan {
   margin: 0 2.5rem 6.5rem 2.5rem;
 }
-/*************************************************/
-.wrap_input {
+
+/*.wrap_input {
     width: 80%;
     margin: 0 auto;
-}
+}*/
 
-.callback_form {
-    width: 99%;
+.form__input {
+    width: 96%;
 }
 
 .callback_form_textarea {
@@ -955,9 +1039,24 @@ h2 {
 }
 
 .info_text--art_about {
-     margin-bottom: 5%; 
+    margin-bottom: 5%; 
     display: inline-block;
-    margin: 0 1rem;
+    padding-left: 20px;
+    width: 100%;
+
+}
+.info_text--aboutus {
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 0;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+.info__pos--aboutus {
+    padding: 0;
+    padding-left: 20px;
+    text-align: left;
+
 }
 
 .team_group--aboutus {
@@ -967,17 +1066,6 @@ h2 {
     margin-left: 1rem;
 }
 
-.info_text--aboutus {
-    font-size: 1.2rem;
-    text-align: center;
-    padding: 0;
-    margin: 0 auto;
-}
-.info__pos--aboutus {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
 
 .art_about {
   width: 100%;
@@ -988,11 +1076,17 @@ h2 {
 }
 
 .menu li {
-  padding: 0 1px;
+    display: block;
 }
 
 }
 
+
+/****************************************************************************************************************
+
+                                                    MEDIA           380
+
+******************************************************************************************************************/
 @media screen and (max-width: 380px) { 
   .btn {
   width :65%;
@@ -1000,7 +1094,21 @@ h2 {
 }
 
 
+@media screen and (max-width: 320px) { 
+    .info_text--art_about {
 
+    }
+    .info_text--aboutus {
+
+        text-align: center;
+
+    }
+    .info__pos--aboutus {
+        text-align: center;
+
+    }
+
+}
 
 
 
