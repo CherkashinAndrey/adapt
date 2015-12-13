@@ -809,6 +809,7 @@ body {
       font-size: 1.5rem;
       margin-bottom: 20px;
       line-height: 4rem;
+      width: 100%;
   }
   
   .hlop {
@@ -910,6 +911,10 @@ body {
   }
 
 } /* end media  767*/
+
+
+
+
   
 /*************************************************************************************************************
 
@@ -920,6 +925,7 @@ body {
 h1 {
     font-size: 1.5rem;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .info__name--portfolio {
@@ -965,7 +971,6 @@ h1 {
     margin-left: 1rem;
 }
 
-
 .art_about {
     width: 100%;
 }
@@ -978,6 +983,10 @@ h1 {
     display: block;
 }
 
+.slogan {
+    font-size: 2.2rem;
+}
+
 }
 
 
@@ -986,11 +995,33 @@ h1 {
                                                     MEDIA           380
 
 ******************************************************************************************************************/
-@media screen and (max-width: 380px) { 
+@media screen and (max-width: 392px) { 
+h1 {
+    line-height: 3rem;
+    font-size: 1.3rem;
+}
+}
+
+
+@media screen and (max-width: 381px) {
+h1 {
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
+
+h2 {
+    line-height: 1.3rem;
+    font-size: 1rem; 
+}
+
 .btn {
     width :65%;
 }
+.tab li {
+      margin: 0px 3px 10px 3px;
 }
+}
+
 
 @media screen and (max-width: 320px) { 
 
@@ -1005,6 +1036,14 @@ h1 {
     display: inline-block;
     width: 70%;
     padding: 0 0px 0px 0px;
+}
+
+.info__name--portfolio:last-child {
+    margin-bottom: 20px;
+}
+
+.slogan {
+    font-size: 2rem;
 }
 
 }
