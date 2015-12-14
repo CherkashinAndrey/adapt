@@ -640,6 +640,7 @@ body {
     font-size: 18px;
     font-family: "titilliumweb-light",sans-serif;
     outline: none;
+    position: relative;
 }
 
 
@@ -653,7 +654,16 @@ body {
 .form_textarea:-moz-placeholder           {color:#fff;}/* Firefox 18- */
 .form_textarea:-ms-input-placeholder      {color:#fff;}
 
-
+.form__input::-webkit-input-placeholder:before {
+    content: "*";
+    top: 3px;
+    left: 63px;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    color: red;
+    font-size: 20px;
+}
 
 .btn_form {
     background: #30bae7;
