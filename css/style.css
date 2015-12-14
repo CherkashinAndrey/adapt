@@ -129,7 +129,7 @@ body {
     height: 100vh;
 }
 
-.hlop {
+.title {
     text-align: center;
     margin-bottom: 80px;
 }
@@ -212,11 +212,11 @@ body {
     position: relative;
     float: right;
     margin-top: 6px;
-    margin-right: 40px;
+    margin-right: 29px;
 }
 
 .menu li {
-    float: right;
+    float: left;
 }
 
 .menu li a{
@@ -224,7 +224,7 @@ body {
     text-decoration: none;
     font-size: 1em;
     color: #Fff;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 22px 5px 22px;
 }
 
 .menu li a:hover {
@@ -253,9 +253,6 @@ body {
 
 }
 
-
-
-
 /********************************************************
 
                                     ! 2 BLOK 
@@ -269,7 +266,7 @@ body {
     width: 100%;
 }
 
-.team_group {
+.group {
     vertical-align: top;
 }
 
@@ -278,7 +275,7 @@ body {
     height: auto;
     display: block;
     margin: 0px auto;
-    margin-bottom: 55px;
+    margin-bottom: 30px;
 }
 
 .info__title {
@@ -305,7 +302,7 @@ body {
         padding-top: 70px;
         padding-bottom:60px; 
     }
-    .team_group {
+    .group {
         margin-bottom: 80px;
     }
     .info__img {
@@ -315,11 +312,11 @@ body {
 
 
 @media screen and (max-width: 767px) {
-    .hlop {
+    .title {
         margin-bottom: 40px;
     }
 
-    .team_group {
+    .group {
         margin-bottom: 40px;
     }
 
@@ -339,9 +336,10 @@ body {
     width: 100%;
     box-sizing: border-box;
     padding-bottom: 20px;
+    padding-top: 50px;
 }
 
-.meet--name {
+.info__name--meet {
     font-weight: bold;
     color: #000;
     text-transform: uppercase;
@@ -349,7 +347,7 @@ body {
     margin-bottom: 10px;
 }
 
-.info__pos--req {
+.info__pos--meet {
     margin-bottom:22px; 
 }
 
@@ -394,7 +392,6 @@ body {
 }
 
 
-
 /*******************************************************************************
 
                     !4 BLOK
@@ -416,7 +413,7 @@ body {
     color: #000; 
 }
 
-.info__img__name {
+.info__img--gotSkills {
     font-family: "titilliumweb-bold";
     font-size: 24px;
     font-weight: bold;
@@ -426,15 +423,10 @@ body {
 
 
 @media screen and (max-width: 767px) {
-    .info__img__name {
+    .info__img--gotSkills {
         margin-bottom: 10px;
     }
 }
-
-
-
-
-
 
 
 /*******************************************************************************
@@ -562,7 +554,7 @@ body {
     padding: 0 40px 30px 0px;
 }
 
-.info_text--aboutus {
+.info_name--aboutus {
     font-family: "titilliumweb-bold";
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -729,15 +721,13 @@ body {
   }
 }
 
-
-
 .meet__title,
 .meet__text,
-.meet--name,
-.meet--text,
+.info__name--meet,
+.info_text--meet,
 .gotSkills__title,
 .gotSkills__text,
-.info__img__name {
+.info__img--gotSkills {
     color: #3c4761;
 }
 
@@ -783,7 +773,7 @@ body {
     max-width: 100%;
 }
 
-.info_text--aboutus {
+.info_name--aboutus {
     font-size: 1.3rem;
 }
 
@@ -812,7 +802,7 @@ body {
       width: 100%;
   }
   
-  .hlop {
+  .title {
       padding-bottom:40px;
   }
 
@@ -886,7 +876,7 @@ body {
       padding: 0;
       display: inline-block;
 }
-.info_text--aboutus {
+.info_name--aboutus {
       font-size: 1.2rem;
 }
 
@@ -953,7 +943,7 @@ h1 {
     width: 100%;
 
 }
-.info_text--aboutus {
+.info_name--aboutus {
     font-size: 1.2rem;
     text-align: left;
     padding: 0;
@@ -965,7 +955,7 @@ h1 {
 
 }
 
-.team_group--aboutus {
+.group--aboutus {
     text-align: center;
     max-width: 100%;
     margin-left: 1rem;
@@ -989,7 +979,6 @@ h1 {
 
 }
 
-
 /****************************************************************************************************************
 
                                                     MEDIA           380
@@ -998,7 +987,7 @@ h1 {
 @media screen and (max-width: 392px) { 
 h1 {
     line-height: 3rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 }
 
@@ -1006,7 +995,7 @@ h1 {
 @media screen and (max-width: 381px) {
 h1 {
     line-height: 3rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 h2 {
@@ -1025,7 +1014,7 @@ h2 {
 
 @media screen and (max-width: 320px) { 
 
-.info_text--aboutus {
+.info_name--aboutus {
     text-align: center;
 }
 .info__pos--aboutus {
