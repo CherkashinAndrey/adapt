@@ -156,6 +156,50 @@ body {
 }
 
 
+.info__name {
+    font-family: "titilliumweb-light",sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    color: #000; 
+}
+
+.info__pos {
+    font-family: "titilliumweb-light",sans-serif;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #30bae7; 
+}
+
+.info_text {
+    font-family: "titilliumweb-light",sans-serif;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #fff;  
+    padding: 0 40px;
+
+}
+
+.info__img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+.info__title {
+    font-family: "titilliumweb-bold",sans-serif;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+
+
 .col1 { 
     width: 24%;
     display: inline-block;
@@ -239,9 +283,10 @@ body {
 
 .menu_icon {
     visibility: hidden ;
-    width: 50px;
-    height: 50px;
+    width: 24px;
+    height: 24px;
     right: 2px;
+    top: 72px;
     position: absolute;
     background: url('../img/menu.png') no-repeat;
 }
@@ -268,33 +313,6 @@ body {
 
 .group {
     vertical-align: top;
-}
-
-.info__img {
-    max-width: 100%; 
-    height: auto;
-    display: block;
-    margin: 0px auto;
-    margin-bottom: 30px;
-}
-
-.info__title {
-    font-family: "titilliumweb-bold",sans-serif;
-    text-align: center;
-    line-height: 1.5rem;
-    font-size: 1.5rem;
-    color: #fff;
-    margin-bottom: 25px;
-}
-
-.info_text {
-    font-family: "titilliumweb-light",sans-serif;
-    text-align: center;
-    line-height: 1.5rem;
-    font-size: 1rem;
-    color: #fff;  
-    padding: 0 40px;
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -335,7 +353,7 @@ body {
     height: 100%;
     width: 100%;
     box-sizing: border-box;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     padding-top: 50px;
 }
 
@@ -352,24 +370,24 @@ body {
 }
 
 
-.socseti {
+.social {
     display: inline-block;
     width: 100%;
     text-align: center;
     height: 50px;
 }
 
-.socseti__item {
+.social__item {
     padding: 0px 22px;
     position: relative;
     display: inline;
 }
 
-.socseti__link {
+.social__link {
     text-decoration: none;
 }
 
-.socseti__link:before {
+.social__link:before {
     position: absolute;
     top: 16px;
     left: 12px;
@@ -403,14 +421,6 @@ body {
     min-height: 100vh;
     height: 100%;
     width: 100%;
-}
-
-
-.info__name {
-    font-family: "titilliumweb-light",sans-serif;
-    text-align: center;
-    font-size: 1rem;
-    color: #000; 
 }
 
 .info__img--gotSkills {
@@ -467,14 +477,6 @@ body {
     background: #24D6B7;
 }
 
-.info__pos {
-    font-family: "titilliumweb-light",sans-serif;
-    text-align: center;
-    line-height: 1.5rem;
-    font-size: 1rem;
-    color: #30bae7; 
-}
-
 .info__name--portfolio {
     font-size: "titilliumweb-regular";
     font-family: 18px;
@@ -524,16 +526,18 @@ body {
     min-height: 100vh;
     height: 100%;
     width: 100%;
+    padding-top: 60px;
 }
 
 .art_about_img {
     max-width: 100%;
     height: auto;
-    vertical-align: top;
 }
 
 .aboutus__img {
-    display: inline;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
 }
 
 .art_about {
@@ -640,7 +644,7 @@ body {
     font-size: 18px;
     font-family: "titilliumweb-light",sans-serif;
     outline: none;
-    position: relative;
+    /*position: relative;*/
 }
 
 
@@ -654,7 +658,7 @@ body {
 .form_textarea:-moz-placeholder           {color:#fff;}/* Firefox 18- */
 .form_textarea:-ms-input-placeholder      {color:#fff;}
 
-.form__input::-webkit-input-placeholder:before {
+/*.form__input::-webkit-input-placeholder:before {
     content: "*";
     top: 3px;
     left: 63px;
@@ -663,7 +667,7 @@ body {
     position: absolute;
     color: red;
     font-size: 20px;
-}
+}*/
 
 .btn_form {
     background: #30bae7;
@@ -806,10 +810,11 @@ body {
 
 @media screen and (max-width: 767px) { 
   h1 {
-      font-size: 1.5rem;
+      font-size: 2rem;
       margin-bottom: 20px;
       line-height: 4rem;
       width: 100%;
+      letter-spacing: 2px;
   }
   
   .title {
@@ -923,9 +928,10 @@ body {
 ***************************************************************************************************************/
 @media screen and (max-width: 479px) { 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 20px;
     width: 100%;
+    letter-spacing: 0px;
 }
 
 .info__name--portfolio {
@@ -997,7 +1003,7 @@ h1 {
 @media screen and (max-width: 392px) { 
 h1 {
     line-height: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 }
 
